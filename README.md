@@ -10,7 +10,8 @@ bash run_group_pnp_edit_FiVE.sh
 ```
 
 
-Just test the code
+- Just test the code
+
 Edited first frame for a single video in FiVE by using InstrcutPix2Pix
 ```
 python edit_image.py --video_path "./data/car-turn16" \
