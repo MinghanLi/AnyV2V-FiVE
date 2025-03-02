@@ -122,10 +122,12 @@ def main(template_config, configs_list):
         logger.info(f"config: {OmegaConf.to_yaml(config)}")
 
         # This is the same as run_ddim_inversion.py
-        try:
+        # try:
+        if os.path.isdir(config.video_frames_path):
+            print(f"valid directory: {config.video_frames_path}")
             logger.info(f"Loading frames from: {config.video_frames_path}")
             _, frame_list = load_video_frames(config.video_frames_path, config.n_frames, config.image_size)
-        except:
+        else:
             logger.error(f"Failed to load frames from: {config.video_frames_path}")
             logger.info(f"Converting mp4 video to frames: {config.video_path}")
             frame_list = convert_video_to_frames(config.video_path, config.image_size, save_frames=True)

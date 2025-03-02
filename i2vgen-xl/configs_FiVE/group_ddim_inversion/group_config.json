@@ -1,0 +1,90 @@
+[
+  {
+    "active": true,
+    "force_recompute_latents": false,
+    "video_name": "car-turn16",
+    "recon_config": {
+      "enable_recon": true
+    }
+  },
+  {
+    "active": true,
+    "force_recompute_latents": false,
+    "video_name": "bus",
+    "recon_config": {
+      "enable_recon": true
+    }
+  },
+  {
+    "active": true,
+    "force_recompute_latents": false,
+    "video_name": "wolf",
+    "recon_config": {
+      "enable_recon": true
+    }
+  },
+  {
+    "active": true,
+    "force_recompute_latents": false,
+    "video_name": "eiffel-flyover",
+    "recon_config": {
+      "enable_recon": true
+    }
+  },
+  {
+    "active": true,
+    "force_recompute_latents": false,
+    "video_name": "cows",
+    "recon_config": {
+      "enable_recon": true
+    }
+  },
+  {
+    "active": true,
+    "force_recompute_latents": false,
+    "video_name": "blackswan",
+    "recon_config": {
+      "enable_recon": true
+    }
+  },
+  {
+    "active": true,
+    "force_recompute_latents": false,
+    "video_name": "aircraft-landing",
+    "recon_config": {
+      "enable_recon": true
+    }
+  },
+  {
+    "active": true,
+    "force_recompute_latents": false,
+    "video_name": "locomotive/",
+    "recon_config": {
+      "enable_recon": true
+    }
+  },
+  {
+    "active": true,
+    "force_recompute_latents": false,
+    "video_name": "bear",
+    "recon_config": {
+      "enable_recon": true
+    }
+  },
+  {
+    "active": true,
+    "force_recompute_latents": false,
+    "video_name": "woman-running",
+    "recon_config": {
+      "enable_recon": true
+    }
+  },
+  {
+    "active": true,
+    "force_recompute_latents": false,
+    "video_name": "camel",
+    "recon_config": {
+      "enable_recon": true
+    }
+  }
+]

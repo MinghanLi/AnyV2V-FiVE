@@ -69,12 +69,21 @@ def convert_video_to_frames(video_path, img_size=(512, 512), save_frames=True):
 # Modified from tokenflow/utils.py
 def load_video_frames(frames_path, n_frames, image_size=(512, 512)):
     # Load paths
+    # try:
     paths = [f"{frames_path}/%05d.png" % i for i in range(n_frames)]
+    # except:
+    paths = sorted([
+        os.path.join(frames_path, f)
+        for f in os.listdir(frames_path)
+        if f.lower().endswith(('.png', '.jpg', '.jpeg', '.bmp', '.tiff'))
+    ])[:n_frames]
+    
     frames = [load_image(p) for p in paths]
     # Check if the frames are the right size
     for f in frames:
         if f.size != image_size:
-            logger.error(f"Frame size {f.size} does not match config.image_size {image_size}")
-            raise ValueError(f"Frame size {f.size} does not match config.image_size {image_size}")
-    return paths, frames
+            # logger.error(f"Frame size {f.size} does not match config.image_size {image_size}")
+            # raise ValueError(f"Frame size {f.size} does not match config.image_size {image_size}")
+            f = f.resize((512, 512), Image.LANCZOS)
 
+    return paths, frames

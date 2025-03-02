@@ -2,7 +2,8 @@ import os
 import argparse
 from PIL import Image
 import json
-from moviepy.editor import VideoFileClip
+from moviepy.editor import VideoFileClip, ImageSequenceClip
+from pathlib import Path
 import numpy as np
 
 import black_box_image_edit as image_edit
@@ -23,7 +24,21 @@ def infer_video(model, video_path, output_dir, prompt, prompt_type="instruct", f
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
 
-    video_clip = VideoFileClip(video_path)
+    if os.path.isfile(video_path):
+        video_clip = VideoFileClip(video_path)
+    elif os.path.isdir(video_path):
+        print(f"Loading frames from directory: {video_path}")
+        
+        frame_files = sorted([
+            os.path.join(video_path, f)
+            for f in os.listdir(video_path)
+            if f.lower().endswith(('.png', '.jpg', '.jpeg', '.bmp', '.tiff'))
+        ])
+        if not frame_files:
+            raise ValueError(f"No image files found in directory: {video_path}")
+    else:
+        raise ValueError(f"Invalid video_path: {video_path}")
+
     video_filename = os.path.basename(video_path)
     # filename_noext = os.path.splitext(video_filename)[0]
     
@@ -40,8 +55,11 @@ def infer_video(model, video_path, output_dir, prompt, prompt_type="instruct", f
         print(f"Result already exists: {result_path}")
         return
 
-    def process_frame(image):
-        pil_image = Image.fromarray(image)
+    def process_frame(image, image_ori_size, is_array=True):
+        if is_array:
+            pil_image = Image.fromarray(image)
+        else:
+            pil_image = image
         if force_512:
             pil_image = pil_image.resize((512, 512), Image.LANCZOS)
         if prompt_type == "instruct":
@@ -49,13 +67,18 @@ def infer_video(model, video_path, output_dir, prompt, prompt_type="instruct", f
         else:
             result = model.infer_one_image(pil_image, target_prompt=prompt, seed=seed, negative_prompt=negative_prompt)
         if force_512:
-            result = result.resize(video_clip.size, Image.LANCZOS)
+            result = result.resize(image_ori_size, Image.LANCZOS)
         return np.array(result)
     
     # Process only the first frame
-    first_frame = video_clip.get_frame(0)  # Get the first frame
-    processed_frame = process_frame(first_frame)  # Process the first frame
-
+    if os.path.isfile(video_path):
+        first_frame = video_clip.get_frame(0)  # Get the first frame
+        processed_frame = process_frame(first_frame, video_clip.size)  # Process the first frame
+    elif os.path.isdir(video_path):
+        first_frame = Image.open(frame_files[0])
+        processed_frame = process_frame(first_frame, first_frame.size, is_array=False)
+    else:
+        raise ValueError(f"Invalid video_path: {video_path}")
 
     #Image.fromarray(first_frame).save(os.path.join(final_output_dir, "00000.png"))
     Image.fromarray(processed_frame).save(result_path)
@@ -63,19 +86,7 @@ def infer_video(model, video_path, output_dir, prompt, prompt_type="instruct", f
     return result_path
 
 
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='Process some images.')
-    parser.add_argument('--model', type=str, default='instructpix2pix', choices=['magicbrush','instructpix2pix', 'cosxl'], help='Name of the image editing model')
-    parser.add_argument('--video_path', type=str, required=False, help='Name of the video', default=None)
-    parser.add_argument('--input_dir', type=str, required=False, help='Directory containing the video', default="./demo/")
-    parser.add_argument('--output_dir', type=str, required=False, help='Directory to save the processed images', default=None)
-    parser.add_argument('--prompt', type=str, required=False, help='Instruction prompt for editing', default="turn the man into darth vader")
-    parser.add_argument('--force_512', action='store_true', help='Force resize to 512x512 when feeding into image model')
-    parser.add_argument('--dict_file', type=str, required=False, help='JSON file containing files, instructions etc.', default=None)
-    parser.add_argument('--seed', type=int, required=False, help='Seed for random number generator', default=42)
-    parser.add_argument('--negative_prompt', type=str, required=False, help='Negative prompt for editing', default=None)
-    args = parser.parse_args()
-
+def main(args):
     if args.negative_prompt is None:
         negative_prompt = "worst quality, normal quality, low quality, low res, blurry, watermark, jpeg artifacts"
     else:
@@ -135,9 +146,9 @@ if __name__ == "__main__":
 
         video_path = args.video_path
         
+        video_filename = os.path.basename(video_path)
+        filename_noext = os.path.splitext(video_filename)[0]
         if args.output_dir is None:
-            video_filename = os.path.basename(video_path)
-            filename_noext = os.path.splitext(video_filename)[0]
             output_dir = os.path.dirname(video_path)
         else:
             output_dir = args.output_dir
@@ -146,3 +157,42 @@ if __name__ == "__main__":
         print("output_dir", output_dir)
 
         infer_video(model, video_path, output_dir, args.prompt, prompt_type, args.force_512, args.seed, negative_prompt)
+
+
+if __name__ == "__main__":
+        parser = argparse.ArgumentParser(description='Process some images.')
+        parser.add_argument('--model', type=str, default='instructpix2pix', choices=['magicbrush','instructpix2pix', 'cosxl'], help='Name of the image editing model')
+        parser.add_argument('--video_path', type=str, required=False, help='Name of the video', default=None)
+        parser.add_argument('--input_dir', type=str, required=False, help='Directory containing the video', default="./demo/")
+        parser.add_argument('--output_dir', type=str, required=False, help='Directory to save the processed images', default=None)
+        parser.add_argument('--prompt', type=str, required=False, help='Instruction prompt for editing', default="turn the man into darth vader")
+        parser.add_argument('--force_512', action='store_true', help='Force resize to 512x512 when feeding into image model')
+        parser.add_argument('--dict_file', type=str, required=False, help='JSON file containing files, instructions etc.', default=None)
+        parser.add_argument('--seed', type=int, required=False, help='Seed for random number generator', default=42)
+        parser.add_argument('--negative_prompt', type=str, required=False, help='Negative prompt for editing', default=None)
+        parser.add_argument(
+            "--configs_json", type=str, default=None, help="./configs/group_edited_first_frame/group_config.json"
+        )  # This is going to override the template_config
+        args = parser.parse_args()
+
+        if args.configs_json is None:
+            main(args)
+        else:
+            # Load data jsonl into list
+            configs_json = args.configs_json
+            assert Path(configs_json).exists(), f'{configs_json}'
+            with open(configs_json, "r") as file:
+                configs_list = json.load(file)
+            print(f"Loaded {len(configs_list)} configs from {configs_json}")
+
+            for config_entry in configs_list:
+                print(f'Processing {config_entry["video_path"]}')
+                
+                args.video_path = config_entry["video_path"]
+                args.input_dir = config_entry["input_dir"]
+                args.output_dir = config_entry["output_dir"] 
+                args.prompt = config_entry["prompt"]
+
+                main(args)
+
+        print("Done!")

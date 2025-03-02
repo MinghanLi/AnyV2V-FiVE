@@ -1,0 +1,200 @@
+[
+  {
+    "video_path": "./data/car-turn16",
+    "input_dir": "./data",
+    "output_dir": "./data/car-turn16/edited_first_frame",
+    "prompt": "'Change the forest to an arid desert.'"
+  },
+  {
+    "video_path": "./data/bus",
+    "input_dir": "./data",
+    "output_dir": "./data/bus/edited_first_frame",
+    "prompt": "Change the bus into a sedan."
+  },
+  {
+    "video_path": "./data/wolf",
+    "input_dir": "./data",
+    "output_dir": "./data/wolf/edited_first_frame",
+    "prompt": "'Change the wolf to a cat.'"
+  },
+  {
+    "video_path": "./data/wolf",
+    "input_dir": "./data",
+    "output_dir": "./data/wolf/edited_first_frame",
+    "prompt": "'Replace the wolf with a fox.'"
+  },
+  {
+    "video_path": "./data/wolf",
+    "input_dir": "./data",
+    "output_dir": "./data/wolf/edited_first_frame",
+    "prompt": "'Change the wolf to a bear and change the colors from gray and white to brown.'"
+  },
+  {
+    "video_path": "./data/eiffel-flyover",
+    "input_dir": "./data",
+    "output_dir": "./data/eiffel-flyover/edited_first_frame",
+    "prompt": "'Change the Eiffel Tower to the Space Needle and change the style to 3D animation.'"
+  },
+  {
+    "video_path": "./data/cows",
+    "input_dir": "./data",
+    "output_dir": "./data/cows/edited_first_frame",
+    "prompt": "'Change the cow into a zebra and change its color from brown and white to black and white.'"
+  },
+  {
+    "video_path": "./data/blackswan",
+    "input_dir": "./data",
+    "output_dir": "./data/blackswan/edited_first_frame",
+    "prompt": "Change the black swan into a swan in Swarovski crystal style and change the red beak into a beak made of crystal."
+  },
+  {
+    "video_path": "./data/aircraft-landing",
+    "input_dir": "./data",
+    "output_dir": "./data/aircraft-landing/edited_first_frame",
+    "prompt": "Change the tree line and clear sky to a bustling cityscape and apply a brightly colored cyberpunk theme to the image."
+  },
+  {
+    "video_path": "./data/locomotive/",
+    "input_dir": "./data",
+    "output_dir": "./data/locomotive//edited_first_frame",
+    "prompt": "'Replace the locomotive with a sports car.'"
+  },
+  {
+    "video_path": "./data/wolf",
+    "input_dir": "./data",
+    "output_dir": "./data/wolf/edited_first_frame",
+    "prompt": "'Change the wolf to a fox.'"
+  },
+  {
+    "video_path": "./data/aircraft-landing",
+    "input_dir": "./data",
+    "output_dir": "./data/aircraft-landing/edited_first_frame",
+    "prompt": "'Change the background color to sepia toned, faded brown color.'"
+  },
+  {
+    "video_path": "./data/bear",
+    "input_dir": "./data",
+    "output_dir": "./data/bear/edited_first_frame",
+    "prompt": "Change the brown bear to a giant panda."
+  },
+  {
+    "video_path": "./data/locomotive/",
+    "input_dir": "./data",
+    "output_dir": "./data/locomotive//edited_first_frame",
+    "prompt": "'Change the locomotive to a motorbike.'"
+  },
+  {
+    "video_path": "./data/car-turn16",
+    "input_dir": "./data",
+    "output_dir": "./data/car-turn16/edited_first_frame",
+    "prompt": "Change the silver compact off-road vehicle into a Disney-style cartoon sports car."
+  },
+  {
+    "video_path": "./data/woman-running",
+    "input_dir": "./data",
+    "output_dir": "./data/woman-running/edited_first_frame",
+    "prompt": "'Replace the woman with a marble sculpture of Venus de Milo.'"
+  },
+  {
+    "video_path": "./data/eiffel-flyover",
+    "input_dir": "./data",
+    "output_dir": "./data/eiffel-flyover/edited_first_frame",
+    "prompt": "'Change the city's classic architecture and green spaces to a large fireworks display.'"
+  },
+  {
+    "video_path": "./data/bear",
+    "input_dir": "./data",
+    "output_dir": "./data/bear/edited_first_frame",
+    "prompt": "'Change the brown bear to a wolf.'"
+  },
+  {
+    "video_path": "./data/locomotive/",
+    "input_dir": "./data",
+    "output_dir": "./data/locomotive//edited_first_frame",
+    "prompt": "'Change the autumn forest into a very heavy snowy forest, and change the locomotive into a sports car.'"
+  },
+  {
+    "video_path": "./data/camel",
+    "input_dir": "./data",
+    "output_dir": "./data/camel/edited_first_frame",
+    "prompt": "Change the camel to a giraffe."
+  },
+  {
+    "video_path": "./data/woman-running",
+    "input_dir": "./data",
+    "output_dir": "./data/woman-running/edited_first_frame",
+    "prompt": "'Add glasses to the woman in the image.'"
+  },
+  {
+    "video_path": "./data/car-turn16",
+    "input_dir": "./data",
+    "output_dir": "./data/car-turn16/edited_first_frame",
+    "prompt": "'Change the silver compact off-road vehicle to an adult Asian elephant.'"
+  },
+  {
+    "video_path": "./data/cows",
+    "input_dir": "./data",
+    "output_dir": "./data/cows/edited_first_frame",
+    "prompt": "Change the cow into a horse and change the white color into black color."
+  },
+  {
+    "video_path": "./data/blackswan",
+    "input_dir": "./data",
+    "output_dir": "./data/blackswan/edited_first_frame",
+    "prompt": "'Change the black swan with a red beak to a pink flamingo.'"
+  },
+  {
+    "video_path": "./data/locomotive/",
+    "input_dir": "./data",
+    "output_dir": "./data/locomotive//edited_first_frame",
+    "prompt": "'Change the locomotive as the airplane.'"
+  },
+  {
+    "video_path": "./data/eiffel-flyover",
+    "input_dir": "./data",
+    "output_dir": "./data/eiffel-flyover/edited_first_frame",
+    "prompt": "'Add 3D animation style to the scene.'"
+  },
+  {
+    "video_path": "./data/eiffel-flyover",
+    "input_dir": "./data",
+    "output_dir": "./data/eiffel-flyover/edited_first_frame",
+    "prompt": "'Replace the Eiffel Tower with the Canadian National Tower and change the city's classic architecture and green spaces to a martian desert.'"
+  },
+  {
+    "video_path": "./data/car-turn16",
+    "input_dir": "./data",
+    "output_dir": "./data/car-turn16/edited_first_frame",
+    "prompt": "Change the compact off-road vehicle into a spaceship."
+  },
+  {
+    "video_path": "./data/bear",
+    "input_dir": "./data",
+    "output_dir": "./data/bear/edited_first_frame",
+    "prompt": "'Replace the brown bear with a lion.'"
+  },
+  {
+    "video_path": "./data/aircraft-landing",
+    "input_dir": "./data",
+    "output_dir": "./data/aircraft-landing/edited_first_frame",
+    "prompt": "Change the aircraft's livery to brightly colored cyberpunk."
+  },
+  {
+    "video_path": "./data/aircraft-landing",
+    "input_dir": "./data",
+    "output_dir": "./data/aircraft-landing/edited_first_frame",
+    "prompt": "Change the clear sky to a cloudy sky."
+  },
+  {
+    "video_path": "./data/wolf",
+    "input_dir": "./data",
+    "output_dir": "./data/wolf/edited_first_frame",
+    "prompt": "'Change the gray and white wolf to a shiny silver robotic wolf.'"
+  },
+  {
+    "video_path": "./data/blackswan",
+    "input_dir": "./data",
+    "output_dir": "./data/blackswan/edited_first_frame",
+    "prompt": "'Change the swan to a duck.'"
+  }
+]

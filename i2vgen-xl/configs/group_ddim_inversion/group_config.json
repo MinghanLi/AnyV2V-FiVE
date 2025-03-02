@@ -9,22 +9,22 @@
       }
   },
   {
-    "active": false,
+    "active": true,
     "force_recompute_latents": false,
     "video_name": "A Couple In A Public Display Of Affection"
   },
   {
-    "active": false,
+    "active": true,
     "force_recompute_latents": false,
     "video_name": "Ballet"
   },
   {
-    "active": false,
+    "active": true,
     "force_recompute_latents": false,
     "video_name": "Man Walking"
   },
   {
-    "active": false,
+    "active": true,
     "force_recompute_latents": false,
     "video_name":"A kitten turning its head on a wooden floor",
     "image_size": [512, 512]

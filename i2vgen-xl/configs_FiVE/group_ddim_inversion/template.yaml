@@ -14,7 +14,7 @@ output_dir: "${data_dir}/inversions/${model_name}/${exp_name}"
 # Data
 #image_size: [1280, 704]
 image_size: [512, 512]
-video_dir: "${data_dir}/demo"
+video_dir: "${data_dir}/data"
 video_name: "ReplaceMe"
 video_path: "ReplaceMe"
 video_frames_path: "ReplaceMe"
