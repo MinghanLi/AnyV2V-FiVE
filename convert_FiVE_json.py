@@ -3,7 +3,7 @@ import json
 from pathlib import Path
 
 
-def main(first_frame_path, ddim_inv_path, pnp_edit_path):
+def main(edit_index, first_frame_path, ddim_inv_path, pnp_edit_path):
     Path('/'.join(first_frame_path.split('/')[:-1])).mkdir(parents=True, exist_ok=True)
     Path('/'.join(ddim_inv_path.split('/')[:-1])).mkdir(parents=True, exist_ok=True)
     Path('/'.join(pnp_edit_path.split('/')[:-1])).mkdir(parents=True, exist_ok=True)
@@ -69,10 +69,11 @@ def main(first_frame_path, ddim_inv_path, pnp_edit_path):
             "edited_first_frame_path": f"{edited_first_frame_dir}/{video_name}/edited_first_frame/{instruction}.png",
             "editing_prompt": entry["source_prompt"],
             "edited_video_name": entry["target_prompt"],
-            "ddim_init_latents_t_idx": 0,
-            "pnp_f_t": 1.0,
-            "pnp_spatial_attn_t": 1.0,
-            "pnp_temp_attn_t":1.0
+            "edited_output_name": str(edit_index)+'_'+entry["target_prompt"][:20],
+            # "ddim_init_latents_t_idx": 0,
+            # "pnp_f_t": 0.2,
+            # "pnp_spatial_attn_t": 0.2,
+            # "pnp_temp_attn_t":0.5
         }
         pnp_edit_list.append(sample)
 
@@ -96,4 +97,4 @@ if __name__ == "__main__":
             print(f"Path does not exist, Skip {dataset_json}")
             continue
 
-        main(first_frame_path, ddim_inv_path, pnp_edit_path)
+        main(i, first_frame_path, ddim_inv_path, pnp_edit_path)

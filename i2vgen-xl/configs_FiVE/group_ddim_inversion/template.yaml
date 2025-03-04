@@ -14,13 +14,13 @@ output_dir: "${data_dir}/inversions/${model_name}/${exp_name}"
 # Data
 #image_size: [1280, 704]
 image_size: [512, 512]
-video_dir: "${data_dir}/data"
+video_dir: "${data_dir}/data_FiVE"
 video_name: "ReplaceMe"
 video_path: "ReplaceMe"
 video_frames_path: "ReplaceMe"
 
 # DDIM settings
-n_frames: 16
+n_frames: 40
 
 # DDIM inversion
 inverse_config:

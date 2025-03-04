@@ -3,6 +3,27 @@
 conda activate anyv2v-i2vgen-xl
 
 cd ..
+
+# python run_group_pnp_edit.py \
+#     --template_config "configs_FiVE/group_pnp_edit/template.yaml" \
+#     --configs_json "configs_FiVE/group_pnp_edit/group_config_edit1.json"
+
+# python run_group_pnp_edit.py \
+#     --template_config "configs_FiVE/group_pnp_edit/template.yaml" \
+#     --configs_json "configs_FiVE/group_pnp_edit/group_config_edit2.json"
+
+# python run_group_pnp_edit.py \
+#     --template_config "configs_FiVE/group_pnp_edit/template.yaml" \
+#     --configs_json "configs_FiVE/group_pnp_edit/group_config_edit3.json"
+
+# python run_group_pnp_edit.py \
+#     --template_config "configs_FiVE/group_pnp_edit/template.yaml" \
+#     --configs_json "configs_FiVE/group_pnp_edit/group_config_edit4.json"
+
+# python run_group_pnp_edit.py \
+#     --template_config "configs_FiVE/group_pnp_edit/template.yaml" \
+#     --configs_json "configs_FiVE/group_pnp_edit/group_config_edit5.json"
+
 python run_group_pnp_edit.py \
---template_config "configs_FiVE/group_pnp_edit/template.yaml" \
---configs_json "configs_FiVE/group_pnp_edit/group_config.json"
+    --template_config "configs_FiVE/group_pnp_edit/template.yaml" \
+    --configs_json "configs_FiVE/group_pnp_edit/group_config_edit6.json"
