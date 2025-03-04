@@ -4,7 +4,7 @@
 Edited all videos in FiVE
 ```
 cd i2vgen-xl/scripts
-bash run_group_edited_first_frame_FiVE.sh
+# bash run_group_edited_first_frame_FiVE.sh # （Done by Minghan）
 bash run_group_ddim_inversion_FiVE.sh
 bash run_group_pnp_edit_FiVE.sh
 ```
