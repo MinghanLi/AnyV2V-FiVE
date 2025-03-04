@@ -1,0 +1,110 @@
+[
+  {
+    "active": true,
+    "task_name": "Prompt-Based-Editing",
+    "video_name": "0007_guitar-violin",
+    "edited_first_frame_path": "data_FiVE/0007_guitar-violin/edited_first_frame/Add a hat to the violinist..png",
+    "editing_prompt": "A musician is playing the violin passionately in a cozy, rustic room with stone walls and warm lighting. Another musician is seated, playing the guitar. The camera remains stationary, capturing the intimate musical performance.",
+    "edited_video_name": "A musician wearing a hat is playing the violin passionately in a cozy, rustic room with stone walls and warm lighting. Another musician is seated, playing the guitar. The camera remains stationary, capturing the intimate musical performance.",
+    "ddim_init_latents_t_idx": 0,
+    "pnp_f_t": 1.0,
+    "pnp_spatial_attn_t": 1.0,
+    "pnp_temp_attn_t": 1.0
+  },
+  {
+    "active": true,
+    "task_name": "Prompt-Based-Editing",
+    "video_name": "0009_bear",
+    "edited_first_frame_path": "data_FiVE/0009_bear/edited_first_frame/Add a cap to the bear..png",
+    "editing_prompt": "A large brown bear is walking slowly across a rocky terrain in a zoo enclosure, surrounded by stone walls and scattered greenery. The camera remains fixed, capturing the bear's deliberate movements.",
+    "edited_video_name": "A large brown bear wearing a cap is walking slowly across a rocky terrain in a zoo enclosure, surrounded by stone walls and scattered greenery. The camera remains fixed, capturing the bear's deliberate movements.",
+    "ddim_init_latents_t_idx": 0,
+    "pnp_f_t": 1.0,
+    "pnp_spatial_attn_t": 1.0,
+    "pnp_temp_attn_t": 1.0
+  },
+  {
+    "active": true,
+    "task_name": "Prompt-Based-Editing",
+    "video_name": "0011_lucia",
+    "edited_first_frame_path": "data_FiVE/0011_lucia/edited_first_frame/Add a dog following the woman.png",
+    "editing_prompt": "A woman in a black dress is walking along a paved path in a lush green park, with trees and a wooden bench in the background. The camera remains fixed, capturing her steady movement.",
+    "edited_video_name": "A woman in a black dress ,followed closely by a dog, is walking along a paved path in a lush green park, with trees and a wooden bench in the background. The camera remains fixed, capturing her steady movement.",
+    "ddim_init_latents_t_idx": 0,
+    "pnp_f_t": 1.0,
+    "pnp_spatial_attn_t": 1.0,
+    "pnp_temp_attn_t": 1.0
+  },
+  {
+    "active": true,
+    "task_name": "Prompt-Based-Editing",
+    "video_name": "0019_tennis-vest",
+    "edited_first_frame_path": "data_FiVE/0019_tennis-vest/edited_first_frame/Add a bright yellow fedora to the player's outfit..png",
+    "editing_prompt": "A tennis player in a navy tank top and white shorts is actively engaged in a tennis match on a clay court. The player is seen moving dynamically across the court, preparing to hit the ball with a tennis racket. The background features a blue banner and a chain-link fence, typical of a tennis court environment. The camera remains stationary, capturing the player's swift movements and actions.",
+    "edited_video_name": "A tennis player in a navy tank top and white shorts, wearing a bright yellow fedora, is actively engaged in a tennis match on a clay court. The player is seen moving dynamically across the court, preparing to hit the ball with a tennis racket. The background features a blue banner and a chain-link fence, typical of a tennis court environment. The camera remains stationary, capturing the player's swift movements and actions.",
+    "ddim_init_latents_t_idx": 0,
+    "pnp_f_t": 1.0,
+    "pnp_spatial_attn_t": 1.0,
+    "pnp_temp_attn_t": 1.0
+  },
+  {
+    "active": true,
+    "task_name": "Prompt-Based-Editing",
+    "video_name": "0034_cows",
+    "edited_first_frame_path": "data_FiVE/0034_cows/edited_first_frame/Add a flower garland to the cow..png",
+    "editing_prompt": "A brown and white cow is walking along a dirt path in a grassy field. The camera remains stationary, capturing the cow's steady movement.",
+    "edited_video_name": "A brown and white cow wearing a flower garland is walking along a dirt path in a grassy field. The camera remains stationary, capturing the cow's steady movement.",
+    "ddim_init_latents_t_idx": 0,
+    "pnp_f_t": 1.0,
+    "pnp_spatial_attn_t": 1.0,
+    "pnp_temp_attn_t": 1.0
+  },
+  {
+    "active": true,
+    "task_name": "Prompt-Based-Editing",
+    "video_name": "0036_camel",
+    "edited_first_frame_path": "data_FiVE/0036_camel/edited_first_frame/Add a big basket to the first camel..png",
+    "editing_prompt": "A camel is walking along a wooden fence in a sandy enclosure, with another camel following behind. The environment is enclosed with wooden fences and greenery in the background. The camera remains stationary, capturing the camels' movements as they explore the area.",
+    "edited_video_name": "A camel carrying a big basket is walking along a wooden fence in a sandy enclosure, with another camel following behind. The environment is enclosed with wooden fences and greenery in the background. The camera remains stationary, capturing the camels' movements as they explore the area.",
+    "ddim_init_latents_t_idx": 0,
+    "pnp_f_t": 1.0,
+    "pnp_spatial_attn_t": 1.0,
+    "pnp_temp_attn_t": 1.0
+  },
+  {
+    "active": true,
+    "task_name": "Prompt-Based-Editing",
+    "video_name": "0057_dog",
+    "edited_first_frame_path": "data_FiVE/0057_dog/edited_first_frame/Add a crown to the dog's head..png",
+    "editing_prompt": "A golden retriever is sniffing the ground in a dry, grassy yard with a wooden fence in the background. The camera follows the dog slowly as it moves across the yard.",
+    "edited_video_name": "A golden retriever wearing a crown is sniffing the ground in a dry, grassy yard with a wooden fence in the background. The camera follows the dog slowly as it moves across the yard.",
+    "ddim_init_latents_t_idx": 0,
+    "pnp_f_t": 1.0,
+    "pnp_spatial_attn_t": 1.0,
+    "pnp_temp_attn_t": 1.0
+  },
+  {
+    "active": true,
+    "task_name": "Prompt-Based-Editing",
+    "video_name": "0069_car-turn",
+    "edited_first_frame_path": "data_FiVE/0069_car-turn/edited_first_frame/Add a giant inflatable flamingo to the roof of the silver SUV..png",
+    "editing_prompt": "A silver SUV is navigating a winding mountain road surrounded by lush green forests and towering mountains in the background. The camera remains stationary, capturing the car's smooth turn along the curve of the road.",
+    "edited_video_name": "A silver SUV with a giant inflatable flamingo strapped to its roof is navigating a winding mountain road surrounded by lush green forests and towering mountains in the background. The camera remains stationary, capturing the car's smooth turn along the curve of the road.",
+    "ddim_init_latents_t_idx": 0,
+    "pnp_f_t": 1.0,
+    "pnp_spatial_attn_t": 1.0,
+    "pnp_temp_attn_t": 1.0
+  },
+  {
+    "active": true,
+    "task_name": "Prompt-Based-Editing",
+    "video_name": "0089_A_dog",
+    "edited_first_frame_path": "data_FiVE/0089_A_dog/edited_first_frame/Add sunglasses to the dog..png",
+    "editing_prompt": "A dog is wagging its tail excitedly while sitting on a sandy beach with waves crashing in the background. The camera remains fixed, focusing on the dog's joyful expression.",
+    "edited_video_name": "A dog wearing sunglasses is wagging its tail excitedly while sitting on a sandy beach with waves crashing in the background. The camera remains fixed, focusing on the dog's joyful expression.",
+    "ddim_init_latents_t_idx": 0,
+    "pnp_f_t": 1.0,
+    "pnp_spatial_attn_t": 1.0,
+    "pnp_temp_attn_t": 1.0
+  }
+]

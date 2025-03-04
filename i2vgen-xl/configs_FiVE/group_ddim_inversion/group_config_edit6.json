@@ -1,0 +1,82 @@
+[
+  {
+    "active": true,
+    "force_recompute_latents": false,
+    "video_name": "0002_girl-dog",
+    "recon_config": {
+      "enable_recon": true
+    }
+  },
+  {
+    "active": true,
+    "force_recompute_latents": false,
+    "video_name": "0017_kid-football",
+    "recon_config": {
+      "enable_recon": true
+    }
+  },
+  {
+    "active": true,
+    "force_recompute_latents": false,
+    "video_name": "0025_baseball",
+    "recon_config": {
+      "enable_recon": true
+    }
+  },
+  {
+    "active": true,
+    "force_recompute_latents": false,
+    "video_name": "0041_longboard",
+    "recon_config": {
+      "enable_recon": true
+    }
+  },
+  {
+    "active": true,
+    "force_recompute_latents": false,
+    "video_name": "0042_gym-ball",
+    "recon_config": {
+      "enable_recon": true
+    }
+  },
+  {
+    "active": true,
+    "force_recompute_latents": false,
+    "video_name": "0048_hike",
+    "recon_config": {
+      "enable_recon": true
+    }
+  },
+  {
+    "active": true,
+    "force_recompute_latents": false,
+    "video_name": "0051_dogs-jump",
+    "recon_config": {
+      "enable_recon": true
+    }
+  },
+  {
+    "active": true,
+    "force_recompute_latents": false,
+    "video_name": "0055_pigs",
+    "recon_config": {
+      "enable_recon": true
+    }
+  },
+  {
+    "active": true,
+    "force_recompute_latents": false,
+    "video_name": "0078_A_cat",
+    "recon_config": {
+      "enable_recon": true
+    }
+  },
+  {
+    "active": true,
+    "force_recompute_latents": false,
+    "video_name": "0088_A_cyclist",
+    "recon_config": {
+      "enable_recon": true
+    }
+  }
+]

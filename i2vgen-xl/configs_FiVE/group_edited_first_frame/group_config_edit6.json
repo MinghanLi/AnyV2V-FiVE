@@ -1,0 +1,62 @@
+[
+  {
+    "video_path": "./data_FiVE/0002_girl-dog",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0002_girl-dog/edited_first_frame",
+    "prompt": "Remove the gray dog from the scene."
+  },
+  {
+    "video_path": "./data_FiVE/0017_kid-football",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0017_kid-football/edited_first_frame",
+    "prompt": "Remove the red cap from the boy."
+  },
+  {
+    "video_path": "./data_FiVE/0025_baseball",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0025_baseball/edited_first_frame",
+    "prompt": "Remove the helmet from the baseball player."
+  },
+  {
+    "video_path": "./data_FiVE/0041_longboard",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0041_longboard/edited_first_frame",
+    "prompt": "Remove the backpack from the man."
+  },
+  {
+    "video_path": "./data_FiVE/0042_gym-ball",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0042_gym-ball/edited_first_frame",
+    "prompt": "Remove the heavy gym ball from the scene."
+  },
+  {
+    "video_path": "./data_FiVE/0048_hike",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0048_hike/edited_first_frame",
+    "prompt": "Remove the backpack from the man."
+  },
+  {
+    "video_path": "./data_FiVE/0051_dogs-jump",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0051_dogs-jump/edited_first_frame",
+    "prompt": "Remove the two dogs from the scene, but keep the woman and the open field under the cloudy sky."
+  },
+  {
+    "video_path": "./data_FiVE/0055_pigs",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0055_pigs/edited_first_frame",
+    "prompt": "Remove the two smaller pigs from the scene."
+  },
+  {
+    "video_path": "./data_FiVE/0078_A_cat",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0078_A_cat/edited_first_frame",
+    "prompt": "Remove the toy from the scene."
+  },
+  {
+    "video_path": "./data_FiVE/0088_A_cyclist",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0088_A_cyclist/edited_first_frame",
+    "prompt": "Remove the helmet."
+  }
+]

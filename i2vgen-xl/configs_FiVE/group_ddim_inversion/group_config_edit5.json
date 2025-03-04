@@ -1,0 +1,74 @@
+[
+  {
+    "active": true,
+    "force_recompute_latents": false,
+    "video_name": "0007_guitar-violin",
+    "recon_config": {
+      "enable_recon": true
+    }
+  },
+  {
+    "active": true,
+    "force_recompute_latents": false,
+    "video_name": "0009_bear",
+    "recon_config": {
+      "enable_recon": true
+    }
+  },
+  {
+    "active": true,
+    "force_recompute_latents": false,
+    "video_name": "0011_lucia",
+    "recon_config": {
+      "enable_recon": true
+    }
+  },
+  {
+    "active": true,
+    "force_recompute_latents": false,
+    "video_name": "0019_tennis-vest",
+    "recon_config": {
+      "enable_recon": true
+    }
+  },
+  {
+    "active": true,
+    "force_recompute_latents": false,
+    "video_name": "0034_cows",
+    "recon_config": {
+      "enable_recon": true
+    }
+  },
+  {
+    "active": true,
+    "force_recompute_latents": false,
+    "video_name": "0036_camel",
+    "recon_config": {
+      "enable_recon": true
+    }
+  },
+  {
+    "active": true,
+    "force_recompute_latents": false,
+    "video_name": "0057_dog",
+    "recon_config": {
+      "enable_recon": true
+    }
+  },
+  {
+    "active": true,
+    "force_recompute_latents": false,
+    "video_name": "0069_car-turn",
+    "recon_config": {
+      "enable_recon": true
+    }
+  },
+  {
+    "active": true,
+    "force_recompute_latents": false,
+    "video_name": "0089_A_dog",
+    "recon_config": {
+      "enable_recon": true
+    }
+  }
+]
