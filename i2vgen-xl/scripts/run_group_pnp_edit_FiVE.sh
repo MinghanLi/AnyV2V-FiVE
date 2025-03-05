@@ -14,5 +14,5 @@ while true; do
 
     python run_group_pnp_edit.py \
         --template_config "configs_FiVE/group_pnp_edit/template.yaml" \
-        --configs_json "configs_FiVE/group_pnp_edit/group_config_edit5.json"
+        --configs_json "configs_FiVE/group_pnp_edit/group_config_edit6.json"
 done

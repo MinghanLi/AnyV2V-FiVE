@@ -152,47 +152,51 @@ def main(template_config, configs_list):
             logger.info("### Inverse a null image!")
             first_frame = Image.new("RGB", (config.image_size[0], config.image_size[1]), (0, 0, 0))
 
-        # Main pipeline
-        # Inversion
-        logger.info(f"config: {OmegaConf.to_yaml(config)}")
-        _ddim_latents = ddim_inversion(config.inverse_config, first_frame, frame_list, pipe, inverse_scheduler, g)
+        try:
+            # Main pipeline
+            # Inversion
+            logger.info(f"config: {OmegaConf.to_yaml(config)}")
+            _ddim_latents = ddim_inversion(config.inverse_config, first_frame, frame_list, pipe, inverse_scheduler, g)
 
-        # Reconstruction
-        recon_config = config.recon_config
-        if recon_config.enable_recon:
-            ddim_init_latents_t_idx = recon_config.ddim_init_latents_t_idx
-            ddim_scheduler.set_timesteps(recon_config.n_steps)
-            logger.info(f"ddim_scheduler.timesteps: {ddim_scheduler.timesteps}")
-            ddim_latents_path = recon_config.ddim_latents_path
-            ddim_latents_at_t = load_ddim_latents_at_t(
-                ddim_scheduler.timesteps[ddim_init_latents_t_idx],
-                ddim_latents_path=ddim_latents_path,
-            )
-            logger.debug(f"ddim_scheduler.timesteps[t_idx]: {ddim_scheduler.timesteps[ddim_init_latents_t_idx]}")
-            reconstructed_video = ddim_sampling(
-                recon_config,
-                first_frame,
-                ddim_latents_at_t,
-                pipe,
-                ddim_scheduler,
-                ddim_init_latents_t_idx,
-                g,
-            )
+            # Reconstruction
+            recon_config = config.recon_config
+            if recon_config.enable_recon:
+                ddim_init_latents_t_idx = recon_config.ddim_init_latents_t_idx
+                ddim_scheduler.set_timesteps(recon_config.n_steps)
+                logger.info(f"ddim_scheduler.timesteps: {ddim_scheduler.timesteps}")
+                ddim_latents_path = recon_config.ddim_latents_path
+                ddim_latents_at_t = load_ddim_latents_at_t(
+                    ddim_scheduler.timesteps[ddim_init_latents_t_idx],
+                    ddim_latents_path=ddim_latents_path,
+                )
+                logger.debug(f"ddim_scheduler.timesteps[t_idx]: {ddim_scheduler.timesteps[ddim_init_latents_t_idx]}")
+                reconstructed_video = ddim_sampling(
+                    recon_config,
+                    first_frame,
+                    ddim_latents_at_t,
+                    pipe,
+                    ddim_scheduler,
+                    ddim_init_latents_t_idx,
+                    g,
+                )
 
-            # Save the reconstructed video
-            os.makedirs(config.output_dir, exist_ok=True)
-            # Downsampling the video for space saving
-            reconstructed_video = [frame.resize((512, 512), resample=Image.LANCZOS) for frame in reconstructed_video]
-            export_to_video(
-                reconstructed_video,
-                os.path.join(config.output_dir, "ddim_reconstruction.mp4"),
-                fps=10,
-            )
-            export_to_gif(
-                reconstructed_video,
-                os.path.join(config.output_dir, "ddim_reconstruction.gif"),
-            )
-            logger.info(f"Saved reconstructed video to {config.output_dir}")
+                # Save the reconstructed video
+                os.makedirs(config.output_dir, exist_ok=True)
+                # Downsampling the video for space saving
+                reconstructed_video = [frame.resize((512, 512), resample=Image.LANCZOS) for frame in reconstructed_video]
+                export_to_video(
+                    reconstructed_video,
+                    os.path.join(config.output_dir, "ddim_reconstruction.mp4"),
+                    fps=10,
+                )
+                export_to_gif(
+                    reconstructed_video,
+                    os.path.join(config.output_dir, "ddim_reconstruction.gif"),
+                )
+                logger.info(f"Saved reconstructed video to {config.output_dir}")
+
+        except:
+            continue
 
 
 if __name__ == "__main__":
