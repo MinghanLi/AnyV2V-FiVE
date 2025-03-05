@@ -1,0 +1,602 @@
+[
+  {
+    "video_path": "./data_FiVE/0001_bus",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0001_bus/edited_first_frame",
+    "prompt": "Change the color of the city bus to purple."
+  },
+  {
+    "video_path": "./data_FiVE/0002_girl-dog",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0002_girl-dog/edited_first_frame",
+    "prompt": "Change the gray dog to a pink dog."
+  },
+  {
+    "video_path": "./data_FiVE/0003_ocean-birds",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0003_ocean-birds/edited_first_frame",
+    "prompt": "Change the color of the ibises from white to orange."
+  },
+  {
+    "video_path": "./data_FiVE/0004_car-roundabout",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0004_car-roundabout/edited_first_frame",
+    "prompt": "Change the color of the Mini Cooper from grey to yellow."
+  },
+  {
+    "video_path": "./data_FiVE/0005_breakdance",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0005_breakdance/edited_first_frame",
+    "prompt": "Change the red hoodie to a black hoodie."
+  },
+  {
+    "video_path": "./data_FiVE/0006_paragliding",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0006_paragliding/edited_first_frame",
+    "prompt": "Change the paraglider to pink."
+  },
+  {
+    "video_path": "./data_FiVE/0007_guitar-violin",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0007_guitar-violin/edited_first_frame",
+    "prompt": "Add blue clothing to the musician playing the violin."
+  },
+  {
+    "video_path": "./data_FiVE/0008_snowboard-race",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0008_snowboard-race/edited_first_frame",
+    "prompt": "Change the color of the snowboarders to pink."
+  },
+  {
+    "video_path": "./data_FiVE/0009_bear",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0009_bear/edited_first_frame",
+    "prompt": "Change the bear's color from brown to purple."
+  },
+  {
+    "video_path": "./data_FiVE/0010_giant-slalom",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0010_giant-slalom/edited_first_frame",
+    "prompt": "Change the skier's outfit from red and white to purple and black."
+  },
+  {
+    "video_path": "./data_FiVE/0011_lucia",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0011_lucia/edited_first_frame",
+    "prompt": "Change the black dress to a red dress."
+  },
+  {
+    "video_path": "./data_FiVE/0012_goat",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0012_goat/edited_first_frame",
+    "prompt": "Add the color blue to the mountain goat."
+  },
+  {
+    "video_path": "./data_FiVE/0013_golf",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0013_golf/edited_first_frame",
+    "prompt": "Change the color of the man's shirt from black to yellow."
+  },
+  {
+    "video_path": "./data_FiVE/0014_burnout",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0014_burnout/edited_first_frame",
+    "prompt": "Change the color of the car from black to pink."
+  },
+  {
+    "video_path": "./data_FiVE/0015_car-shadow",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0015_car-shadow/edited_first_frame",
+    "prompt": "Change the color of the car from silver to green."
+  },
+  {
+    "video_path": "./data_FiVE/0016_horsejump-high",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0016_horsejump-high/edited_first_frame",
+    "prompt": "Change the color of the horse to blue."
+  },
+  {
+    "video_path": "./data_FiVE/0017_kid-football",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0017_kid-football/edited_first_frame",
+    "prompt": "Change the color of the boy's cap from red to yellow."
+  },
+  {
+    "video_path": "./data_FiVE/0018_breakdance-flare",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0018_breakdance-flare/edited_first_frame",
+    "prompt": "Add a black shirt to the breakdancer."
+  },
+  {
+    "video_path": "./data_FiVE/0019_tennis-vest",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0019_tennis-vest/edited_first_frame",
+    "prompt": "Change the white shorts to black shorts."
+  },
+  {
+    "video_path": "./data_FiVE/0020_monkeys",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0020_monkeys/edited_first_frame",
+    "prompt": "Change the monkeys to be blue."
+  },
+  {
+    "video_path": "./data_FiVE/0021_landing",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0021_landing/edited_first_frame",
+    "prompt": "Change the color of the fighter jet to pink."
+  },
+  {
+    "video_path": "./data_FiVE/0022_skate-jump",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0022_skate-jump/edited_first_frame",
+    "prompt": "Add the color red to the skateboarder's clothing."
+  },
+  {
+    "video_path": "./data_FiVE/0023_kayak-race",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0023_kayak-race/edited_first_frame",
+    "prompt": "Add blue color to the kayakers."
+  },
+  {
+    "video_path": "./data_FiVE/0024_hockey",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0024_hockey/edited_first_frame",
+    "prompt": "Change the person's attire to pink."
+  },
+  {
+    "video_path": "./data_FiVE/0025_baseball",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0025_baseball/edited_first_frame",
+    "prompt": "Change the player's uniform color to yellow."
+  },
+  {
+    "video_path": "./data_FiVE/0026_table-tennis",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0026_table-tennis/edited_first_frame",
+    "prompt": "Change the player in red and black outfit to be in a black outfit."
+  },
+  {
+    "video_path": "./data_FiVE/0027_dance-jump",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0027_dance-jump/edited_first_frame",
+    "prompt": "Change the color of the dress from pink and white to blue and black."
+  },
+  {
+    "video_path": "./data_FiVE/0028_kite-walk",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0028_kite-walk/edited_first_frame",
+    "prompt": "Change the blue helmet to a yellow helmet."
+  },
+  {
+    "video_path": "./data_FiVE/0029_horsejump-stick",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0029_horsejump-stick/edited_first_frame",
+    "prompt": "Change the color of the horse to green."
+  },
+  {
+    "video_path": "./data_FiVE/0030_rallye",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0030_rallye/edited_first_frame",
+    "prompt": "Add the color red to the rally car."
+  },
+  {
+    "video_path": "./data_FiVE/0031_soccerball",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0031_soccerball/edited_first_frame",
+    "prompt": "Add the color purple to the soccer ball."
+  },
+  {
+    "video_path": "./data_FiVE/0032_mermaid",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0032_mermaid/edited_first_frame",
+    "prompt": "Add the color red to the mermaid's costume."
+  },
+  {
+    "video_path": "./data_FiVE/0033_horsejump-low",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0033_horsejump-low/edited_first_frame",
+    "prompt": "Change the white horse to a black horse."
+  },
+  {
+    "video_path": "./data_FiVE/0034_cows",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0034_cows/edited_first_frame",
+    "prompt": "Change the brown color of the cow to purple."
+  },
+  {
+    "video_path": "./data_FiVE/0035_helicopter",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0035_helicopter/edited_first_frame",
+    "prompt": "Add the color'red' to describe the helicopter."
+  },
+  {
+    "video_path": "./data_FiVE/0036_camel",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0036_camel/edited_first_frame",
+    "prompt": "Change the color of the first camel to purple."
+  },
+  {
+    "video_path": "./data_FiVE/0037_snowboard-sand",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0037_snowboard-sand/edited_first_frame",
+    "prompt": "Change the woman's outfit to red."
+  },
+  {
+    "video_path": "./data_FiVE/0038_motorbike",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0038_motorbike/edited_first_frame",
+    "prompt": "Add the color red to the motorbike."
+  },
+  {
+    "video_path": "./data_FiVE/0039_chamaleon",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0039_chamaleon/edited_first_frame",
+    "prompt": "Change the color of the chameleon from green to red."
+  },
+  {
+    "video_path": "./data_FiVE/0040_tennis",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0040_tennis/edited_first_frame",
+    "prompt": "Change the player's outfit from white shirt and black shorts to black shirt and red shorts."
+  },
+  {
+    "video_path": "./data_FiVE/0041_longboard",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0041_longboard/edited_first_frame",
+    "prompt": "Change the yellow shirt to a red shirt."
+  },
+  {
+    "video_path": "./data_FiVE/0042_gym-ball",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0042_gym-ball/edited_first_frame",
+    "prompt": "Change the man's clothing to yellow."
+  },
+  {
+    "video_path": "./data_FiVE/0043_parkour",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0043_parkour/edited_first_frame",
+    "prompt": "Add purple color to the man."
+  },
+  {
+    "video_path": "./data_FiVE/0044_snowboard",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0044_snowboard/edited_first_frame",
+    "prompt": "Add green to the snowboarder's clothing."
+  },
+  {
+    "video_path": "./data_FiVE/0045_butterfly",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0045_butterfly/edited_first_frame",
+    "prompt": "Change the color of the butterfly from blue to pink."
+  },
+  {
+    "video_path": "./data_FiVE/0046_blackswan",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0046_blackswan/edited_first_frame",
+    "prompt": "Change the black swan to a red swan."
+  },
+  {
+    "video_path": "./data_FiVE/0047_judo",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0047_judo/edited_first_frame",
+    "prompt": "Change the judo practitioners' uniforms to red."
+  },
+  {
+    "video_path": "./data_FiVE/0048_hike",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0048_hike/edited_first_frame",
+    "prompt": "Change the man's clothing to red."
+  },
+  {
+    "video_path": "./data_FiVE/0049_speed-skating",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0049_speed-skating/edited_first_frame",
+    "prompt": "Change the color of the speed skaters' suits from pink to the original colors. \n\nNote: The instruction should be short and to the point. \n\nSource prompt: 'A group of friends laughing and chatting at a beach on a sunny day. They are all wearing casual summer clothes and sunglasses. Some are sitting on towels, while others are standing and looking out at the sea.'\nTarget prompt: 'A group of friends laughing and chatting at a mountain resort on a sunny day. They are all wearing casual winter clothes and sunglasses. Some are sitting on ski lifts, while others are standing and looking out at the slopes.'\nInstruction: Change the location from beach to mountain resort and update the clothes and activities accordingly. \n\nSource prompt: 'A close-up of a single rose in full bloom, with delicate petals and a subtle sheen. The background is a soft, blurred green.'\nTarget prompt: 'A close-up of a single rose in full bloom, with delicate petals and a subtle sheen. The background is a soft, blurred blue.'\nInstruction: Change the background color from green to blue. \n\nSource prompt: 'A futuristic cityscape at dusk, with sleek skyscrapers and neon lights reflecting off the wet pavement. The sky is a deep orange, with hues of pink and purple.'\nTarget prompt: 'A futuristic cityscape at dawn, with sleek skyscrapers and neon lights reflecting off the wet pavement. The sky is a deep blue, with hues of pink and purple.'\nInstruction: Change the time of day from dusk to dawn and update the sky colors accordingly. \n\nSource prompt"
+  },
+  {
+    "video_path": "./data_FiVE/0050_slackline",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0050_slackline/edited_first_frame",
+    "prompt": "Add green attire to the person."
+  },
+  {
+    "video_path": "./data_FiVE/0051_dogs-jump",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0051_dogs-jump/edited_first_frame",
+    "prompt": "Change the color of the woman's jacket from yellow to blue."
+  },
+  {
+    "video_path": "./data_FiVE/0052_mallard-fly",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0052_mallard-fly/edited_first_frame",
+    "prompt": "Add the color 'blue' to describe the mallard duck."
+  },
+  {
+    "video_path": "./data_FiVE/0053_swing",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0053_swing/edited_first_frame",
+    "prompt": "Change the color of the person's clothes to purple."
+  },
+  {
+    "video_path": "./data_FiVE/0054_train",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0054_train/edited_first_frame",
+    "prompt": "Change the color of the engine and carriages from blue, red, and gray to pink."
+  },
+  {
+    "video_path": "./data_FiVE/0055_pigs",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0055_pigs/edited_first_frame",
+    "prompt": "Change the pigs to blue pigs."
+  },
+  {
+    "video_path": "./data_FiVE/0056_kart-turn",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0056_kart-turn/edited_first_frame",
+    "prompt": "Change the color of the go-karts to black."
+  },
+  {
+    "video_path": "./data_FiVE/0057_dog",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0057_dog/edited_first_frame",
+    "prompt": "Change the color of the retriever from golden to blue."
+  },
+  {
+    "video_path": "./data_FiVE/0058_boat",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0058_boat/edited_first_frame",
+    "prompt": "Change the color of the boat from white to pink."
+  },
+  {
+    "video_path": "./data_FiVE/0059_drift-straight",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0059_drift-straight/edited_first_frame",
+    "prompt": "Change the car's color from red to yellow."
+  },
+  {
+    "video_path": "./data_FiVE/0060_motocross-bumps",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0060_motocross-bumps/edited_first_frame",
+    "prompt": "Add the color red to describe the motocross rider."
+  },
+  {
+    "video_path": "./data_FiVE/0061_mbike-santa",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0061_mbike-santa/edited_first_frame",
+    "prompt": "Change the color of the Santa Claus outfit from the original color to yellow."
+  },
+  {
+    "video_path": "./data_FiVE/0062_elephant",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0062_elephant/edited_first_frame",
+    "prompt": "Change the elephant's color to blue."
+  },
+  {
+    "video_path": "./data_FiVE/0063_drift-turn",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0063_drift-turn/edited_first_frame",
+    "prompt": "Add the color black to the car."
+  },
+  {
+    "video_path": "./data_FiVE/0064_rollerblade",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0064_rollerblade/edited_first_frame",
+    "prompt": "Add the color white to the person's outfit."
+  },
+  {
+    "video_path": "./data_FiVE/0065_twist-dance",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0065_twist-dance/edited_first_frame",
+    "prompt": "Change the dancers' outfits from red to white."
+  },
+  {
+    "video_path": "./data_FiVE/0066_deer",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0066_deer/edited_first_frame",
+    "prompt": "Change the color of the deer to pink."
+  },
+  {
+    "video_path": "./data_FiVE/0067_mbike-trick",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0067_mbike-trick/edited_first_frame",
+    "prompt": "Change the motorcyclist to wear red."
+  },
+  {
+    "video_path": "./data_FiVE/0068_planes-water",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0068_planes-water/edited_first_frame",
+    "prompt": "Add the color blue to the airplane."
+  },
+  {
+    "video_path": "./data_FiVE/0069_car-turn",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0069_car-turn/edited_first_frame",
+    "prompt": "Change the color of the SUV from silver to pink."
+  },
+  {
+    "video_path": "./data_FiVE/0070_dance-twirl",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0070_dance-twirl/edited_first_frame",
+    "prompt": "Change the color of the dancer's costume from blue and green to yellow."
+  },
+  {
+    "video_path": "./data_FiVE/0071_mallard-water",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0071_mallard-water/edited_first_frame",
+    "prompt": "Add 'blue' to describe the mallard duck."
+  },
+  {
+    "video_path": "./data_FiVE/0072_dog-agility",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0072_dog-agility/edited_first_frame",
+    "prompt": "Change the border collie to a red border collie."
+  },
+  {
+    "video_path": "./data_FiVE/0073_bmx-rider",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0073_bmx-rider/edited_first_frame",
+    "prompt": "Change the rider's color to green."
+  },
+  {
+    "video_path": "./data_FiVE/0074_rhino",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0074_rhino/edited_first_frame",
+    "prompt": "Change the color of the rhinoceros to pink."
+  },
+  {
+    "video_path": "./data_FiVE/0075_A_bicycle",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0075_A_bicycle/edited_first_frame",
+    "prompt": "Add purple color to the bicycle."
+  },
+  {
+    "video_path": "./data_FiVE/0076_A_rabbit",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0076_A_rabbit/edited_first_frame",
+    "prompt": "Change the color of the rabbit to turquoise."
+  },
+  {
+    "video_path": "./data_FiVE/0077_A_hawk",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0077_A_hawk/edited_first_frame",
+    "prompt": "Change the color of the hawk to pink."
+  },
+  {
+    "video_path": "./data_FiVE/0078_A_cat",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0078_A_cat/edited_first_frame",
+    "prompt": "Change the cat to green."
+  },
+  {
+    "video_path": "./data_FiVE/0079_A_bus",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0079_A_bus/edited_first_frame",
+    "prompt": "Change the color of the bus to lavender."
+  },
+  {
+    "video_path": "./data_FiVE/0080_A_motorcycle",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0080_A_motorcycle/edited_first_frame",
+    "prompt": "Change the motorcycle to golden."
+  },
+  {
+    "video_path": "./data_FiVE/0081_A_horse",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0081_A_horse/edited_first_frame",
+    "prompt": "Change the horse to a silver horse."
+  },
+  {
+    "video_path": "./data_FiVE/0082_A_tram",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0082_A_tram/edited_first_frame",
+    "prompt": "Change the color of the tram to teal."
+  },
+  {
+    "video_path": "./data_FiVE/0083_A_boat",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0083_A_boat/edited_first_frame",
+    "prompt": "Change the color of the boat to magenta."
+  },
+  {
+    "video_path": "./data_FiVE/0084_A_squirrel",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0084_A_squirrel/edited_first_frame",
+    "prompt": "Change the squirrel to a crimson squirrel."
+  },
+  {
+    "video_path": "./data_FiVE/0085_A_tram",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0085_A_tram/edited_first_frame",
+    "prompt": "Change the color of the tram to chartreuse."
+  },
+  {
+    "video_path": "./data_FiVE/0086_A_red_sports_car",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0086_A_red_sports_car/edited_first_frame",
+    "prompt": "Change the color of the sports car from red to cyan."
+  },
+  {
+    "video_path": "./data_FiVE/0087_A_seagull",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0087_A_seagull/edited_first_frame",
+    "prompt": "Change the seagull to violet"
+  },
+  {
+    "video_path": "./data_FiVE/0088_A_cyclist",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0088_A_cyclist/edited_first_frame",
+    "prompt": "Change the cyclist's color to maroon."
+  },
+  {
+    "video_path": "./data_FiVE/0089_A_dog",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0089_A_dog/edited_first_frame",
+    "prompt": "Change the dog to a lime dog."
+  },
+  {
+    "video_path": "./data_FiVE/0090_A_deer",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0090_A_deer/edited_first_frame",
+    "prompt": "Change the deer into a coral deer."
+  },
+  {
+    "video_path": "./data_FiVE/0091_A_hawk",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0091_A_hawk/edited_first_frame",
+    "prompt": "Change the hawk to a mustard hawk."
+  },
+  {
+    "video_path": "./data_FiVE/0092_A_fox",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0092_A_fox/edited_first_frame",
+    "prompt": "Change the fox to an indigo fox."
+  },
+  {
+    "video_path": "./data_FiVE/0093_A_helicopter",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0093_A_helicopter/edited_first_frame",
+    "prompt": "Change the helicopter's color to fuchsia."
+  },
+  {
+    "video_path": "./data_FiVE/0094_A_swan",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0094_A_swan/edited_first_frame",
+    "prompt": "Add 'bronze' to the swan."
+  },
+  {
+    "video_path": "./data_FiVE/0095_A_crow",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0095_A_crow/edited_first_frame",
+    "prompt": "Add \"azure\" to describe the crow."
+  },
+  {
+    "video_path": "./data_FiVE/0096_A_car",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0096_A_car/edited_first_frame",
+    "prompt": "Add the color beige to the car."
+  },
+  {
+    "video_path": "./data_FiVE/0097_A_bird",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0097_A_bird/edited_first_frame",
+    "prompt": "Change the bird to an olive bird."
+  },
+  {
+    "video_path": "./data_FiVE/0098_A_squirrel",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0098_A_squirrel/edited_first_frame",
+    "prompt": "Change the squirrel to a salmon squirrel."
+  },
+  {
+    "video_path": "./data_FiVE/0099_A_jogger",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0099_A_jogger/edited_first_frame",
+    "prompt": "Change the jogger to lavender."
+  },
+  {
+    "video_path": "./data_FiVE/0100_A_deer",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0100_A_deer/edited_first_frame",
+    "prompt": "Replace 'deer' with 'periwinkle deer"
+  }
+]

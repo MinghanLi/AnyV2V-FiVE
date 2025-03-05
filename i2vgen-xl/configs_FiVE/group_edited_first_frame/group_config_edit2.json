@@ -1,0 +1,602 @@
+[
+  {
+    "video_path": "./data_FiVE/0001_bus",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0001_bus/edited_first_frame",
+    "prompt": "Change the city bus into a spaceship."
+  },
+  {
+    "video_path": "./data_FiVE/0002_girl-dog",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0002_girl-dog/edited_first_frame",
+    "prompt": "Replace the girl with a young alien, replace the wheelchair with a hovercraft, and replace the gray dog with a robotic dog."
+  },
+  {
+    "video_path": "./data_FiVE/0003_ocean-birds",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0003_ocean-birds/edited_first_frame",
+    "prompt": "Replace the white ibises with drones and change pecking to scanning."
+  },
+  {
+    "video_path": "./data_FiVE/0004_car-roundabout",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0004_car-roundabout/edited_first_frame",
+    "prompt": "Change the grey Mini Cooper to a hovercraft."
+  },
+  {
+    "video_path": "./data_FiVE/0005_breakdance",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0005_breakdance/edited_first_frame",
+    "prompt": "Change the breakdancer to a bear."
+  },
+  {
+    "video_path": "./data_FiVE/0006_paragliding",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0006_paragliding/edited_first_frame",
+    "prompt": "Replace the paraglider with a dragon."
+  },
+  {
+    "video_path": "./data_FiVE/0007_guitar-violin",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0007_guitar-violin/edited_first_frame",
+    "prompt": "Replace the musicians with a tiger and a robot."
+  },
+  {
+    "video_path": "./data_FiVE/0008_snowboard-race",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0008_snowboard-race/edited_first_frame",
+    "prompt": "Replace the snowboarders with penguins."
+  },
+  {
+    "video_path": "./data_FiVE/0009_bear",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0009_bear/edited_first_frame",
+    "prompt": "Replace the bear with a dinosaur."
+  },
+  {
+    "video_path": "./data_FiVE/0010_giant-slalom",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0010_giant-slalom/edited_first_frame",
+    "prompt": "Change the skier to a robot."
+  },
+  {
+    "video_path": "./data_FiVE/0011_lucia",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0011_lucia/edited_first_frame",
+    "prompt": "Replace the woman with a lion."
+  },
+  {
+    "video_path": "./data_FiVE/0012_goat",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0012_goat/edited_first_frame",
+    "prompt": "Replace the mountain goat with a spiderman."
+  },
+  {
+    "video_path": "./data_FiVE/0013_golf",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0013_golf/edited_first_frame",
+    "prompt": "Replace the man with a robot and the golf cart with a hovercraft, and change 'drives' to 'glide'."
+  },
+  {
+    "video_path": "./data_FiVE/0014_burnout",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0014_burnout/edited_first_frame",
+    "prompt": "Change the black car to a UFO and change burnout to hover trick."
+  },
+  {
+    "video_path": "./data_FiVE/0015_car-shadow",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0015_car-shadow/edited_first_frame",
+    "prompt": "Change the silver car into a hovercraft."
+  },
+  {
+    "video_path": "./data_FiVE/0016_horsejump-high",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0016_horsejump-high/edited_first_frame",
+    "prompt": "Replace the horse with a kangaroo."
+  },
+  {
+    "video_path": "./data_FiVE/0017_kid-football",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0017_kid-football/edited_first_frame",
+    "prompt": "Replace the young boy with a dog. \n\nNote: The instruction should be as short as possible while still being clear. \n\nPlease respond with the instruction."
+  },
+  {
+    "video_path": "./data_FiVE/0018_breakdance-flare",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0018_breakdance-flare/edited_first_frame",
+    "prompt": "Replace the breakdancer with a robot and change the subject from a dancer to a dragon."
+  },
+  {
+    "video_path": "./data_FiVE/0019_tennis-vest",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0019_tennis-vest/edited_first_frame",
+    "prompt": "Replace the tennis player with a robot."
+  },
+  {
+    "video_path": "./data_FiVE/0020_monkeys",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0020_monkeys/edited_first_frame",
+    "prompt": "Replace the monkeys with robots."
+  },
+  {
+    "video_path": "./data_FiVE/0021_landing",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0021_landing/edited_first_frame",
+    "prompt": "Replace the fighter jet with a dragon."
+  },
+  {
+    "video_path": "./data_FiVE/0022_skate-jump",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0022_skate-jump/edited_first_frame",
+    "prompt": "Change the skateboarder to a robot."
+  },
+  {
+    "video_path": "./data_FiVE/0023_kayak-race",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0023_kayak-race/edited_first_frame",
+    "prompt": "Replace the kayakers with dolphins and change paddling to swimming."
+  },
+  {
+    "video_path": "./data_FiVE/0024_hockey",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0024_hockey/edited_first_frame",
+    "prompt": "Change the person to a dragon. \n\nNote: Please ensure the instruction is short and only includes the changes needed to transform the source into the target. \n\nThe instruction should be 5 words or less. \n\nChange person to dragon."
+  },
+  {
+    "video_path": "./data_FiVE/0025_baseball",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0025_baseball/edited_first_frame",
+    "prompt": "Replace the baseball player with a tiger and change the player to a robot."
+  },
+  {
+    "video_path": "./data_FiVE/0026_table-tennis",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0026_table-tennis/edited_first_frame",
+    "prompt": "Replace the two table tennis players with two robots and change the players to robots, also replace 'kangaroo' with 'robots'. \n\nNote: The instruction should be short and to the point. \n\nSource prompt: 'A group of people are standing in front of a newly unveiled statue in a city park on a sunny day. The statue is of a famous historical figure and is surrounded by a small pool of water with flowers floating on it. In the background, there are trees with green leaves and people walking around. The atmosphere is calm and peaceful.'\nTarget prompt: 'A group of people are standing in front of a newly unveiled statue in a city park on a rainy day. The statue is of a famous historical figure and is surrounded by a small pool of water with flowers floating on it. In the background, there are trees with green leaves and people walking around. The atmosphere is calm and peaceful.'\nInstruction: Change the sunny day to a rainy day.\n\nSource prompt: 'A close-up of a cat sitting on a windowsill with the curtains drawn open, looking outside at the sky with a few birds flying by. The cat is wearing a collar with"
+  },
+  {
+    "video_path": "./data_FiVE/0027_dance-jump",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0027_dance-jump/edited_first_frame",
+    "prompt": "Replace the young girl with a bumblebee."
+  },
+  {
+    "video_path": "./data_FiVE/0028_kite-walk",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0028_kite-walk/edited_first_frame",
+    "prompt": "Replace the person with a Pikachu."
+  },
+  {
+    "video_path": "./data_FiVE/0029_horsejump-stick",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0029_horsejump-stick/edited_first_frame",
+    "prompt": "Change the horse to a monkey and the horse to a kangaroo."
+  },
+  {
+    "video_path": "./data_FiVE/0030_rallye",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0030_rallye/edited_first_frame",
+    "prompt": "Replace the rally car with a hovercraft."
+  },
+  {
+    "video_path": "./data_FiVE/0031_soccerball",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0031_soccerball/edited_first_frame",
+    "prompt": "Replace the soccer ball with a cube."
+  },
+  {
+    "video_path": "./data_FiVE/0032_mermaid",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0032_mermaid/edited_first_frame",
+    "prompt": "Change the woman into an alien."
+  },
+  {
+    "video_path": "./data_FiVE/0033_horsejump-low",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0033_horsejump-low/edited_first_frame",
+    "prompt": "Change the horse to a lion and the horse to a kangaroo."
+  },
+  {
+    "video_path": "./data_FiVE/0034_cows",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0034_cows/edited_first_frame",
+    "prompt": "Replace the cow with a dragon."
+  },
+  {
+    "video_path": "./data_FiVE/0035_helicopter",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0035_helicopter/edited_first_frame",
+    "prompt": "Change the helicopter into a UFO, and change the rotors spinning rapidly into the UFO's lights spinning rapidly."
+  },
+  {
+    "video_path": "./data_FiVE/0036_camel",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0036_camel/edited_first_frame",
+    "prompt": "Replace the camels with monkeys."
+  },
+  {
+    "video_path": "./data_FiVE/0037_snowboard-sand",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0037_snowboard-sand/edited_first_frame",
+    "prompt": "Change the woman to a Wizard."
+  },
+  {
+    "video_path": "./data_FiVE/0038_motorbike",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0038_motorbike/edited_first_frame",
+    "prompt": "Change the motorbike to a hovercraft."
+  },
+  {
+    "video_path": "./data_FiVE/0039_chamaleon",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0039_chamaleon/edited_first_frame",
+    "prompt": "Replace the green chameleon with a robotic spider."
+  },
+  {
+    "video_path": "./data_FiVE/0040_tennis",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0040_tennis/edited_first_frame",
+    "prompt": "Replace the tennis player with a dinosaur."
+  },
+  {
+    "video_path": "./data_FiVE/0041_longboard",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0041_longboard/edited_first_frame",
+    "prompt": "Replace'man' with 'ultraman' and 'longboard' with 'hoverboard' and 'him' with 'it'."
+  },
+  {
+    "video_path": "./data_FiVE/0042_gym-ball",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0042_gym-ball/edited_first_frame",
+    "prompt": "Replace the man with a panda."
+  },
+  {
+    "video_path": "./data_FiVE/0043_parkour",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0043_parkour/edited_first_frame",
+    "prompt": "Replace the man with a bear."
+  },
+  {
+    "video_path": "./data_FiVE/0044_snowboard",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0044_snowboard/edited_first_frame",
+    "prompt": "Replace the snowboarder with a robotic penguin."
+  },
+  {
+    "video_path": "./data_FiVE/0045_butterfly",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0045_butterfly/edited_first_frame",
+    "prompt": "Replace the butterfly with a drone."
+  },
+  {
+    "video_path": "./data_FiVE/0046_blackswan",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0046_blackswan/edited_first_frame",
+    "prompt": "Change the black swan to a boat."
+  },
+  {
+    "video_path": "./data_FiVE/0047_judo",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0047_judo/edited_first_frame",
+    "prompt": "Replace the judo practitioners with robots."
+  },
+  {
+    "video_path": "./data_FiVE/0048_hike",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0048_hike/edited_first_frame",
+    "prompt": "Replace the man with a robot."
+  },
+  {
+    "video_path": "./data_FiVE/0049_speed-skating",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0049_speed-skating/edited_first_frame",
+    "prompt": "Change the human skaters into robotic skaters."
+  },
+  {
+    "video_path": "./data_FiVE/0050_slackline",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0050_slackline/edited_first_frame",
+    "prompt": "Replace the person with a Pikachu."
+  },
+  {
+    "video_path": "./data_FiVE/0051_dogs-jump",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0051_dogs-jump/edited_first_frame",
+    "prompt": "Replace the woman with a robot and the dogs with robotic dogs."
+  },
+  {
+    "video_path": "./data_FiVE/0052_mallard-fly",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0052_mallard-fly/edited_first_frame",
+    "prompt": "Replace the mallard duck with a robotic dog."
+  },
+  {
+    "video_path": "./data_FiVE/0053_swing",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0053_swing/edited_first_frame",
+    "prompt": "Replace the person with a robot."
+  },
+  {
+    "video_path": "./data_FiVE/0054_train",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0054_train/edited_first_frame",
+    "prompt": "Change the train into a spaceship."
+  },
+  {
+    "video_path": "./data_FiVE/0055_pigs",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0055_pigs/edited_first_frame",
+    "prompt": "Replace the pigs with robotic dragons."
+  },
+  {
+    "video_path": "./data_FiVE/0056_kart-turn",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0056_kart-turn/edited_first_frame",
+    "prompt": "Change go-karts to hovercrafts and drivers to pilots"
+  },
+  {
+    "video_path": "./data_FiVE/0057_dog",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0057_dog/edited_first_frame",
+    "prompt": "Replace the golden retriever with a robotic dog."
+  },
+  {
+    "video_path": "./data_FiVE/0058_boat",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0058_boat/edited_first_frame",
+    "prompt": "Replace the fishing boat with a hovercraft."
+  },
+  {
+    "video_path": "./data_FiVE/0059_drift-straight",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0059_drift-straight/edited_first_frame",
+    "prompt": "Change the sports car to a hovercraft."
+  },
+  {
+    "video_path": "./data_FiVE/0060_motocross-bumps",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0060_motocross-bumps/edited_first_frame",
+    "prompt": "Replace the motocross rider with a kangaroo."
+  },
+  {
+    "video_path": "./data_FiVE/0061_mbike-santa",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0061_mbike-santa/edited_first_frame",
+    "prompt": "Replace the person with a robot and the motorcycle with a hovercraft."
+  },
+  {
+    "video_path": "./data_FiVE/0062_elephant",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0062_elephant/edited_first_frame",
+    "prompt": "Replace the elephant with a jeep."
+  },
+  {
+    "video_path": "./data_FiVE/0063_drift-turn",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0063_drift-turn/edited_first_frame",
+    "prompt": "Replace 'race car' with 'hovercraft'."
+  },
+  {
+    "video_path": "./data_FiVE/0064_rollerblade",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0064_rollerblade/edited_first_frame",
+    "prompt": "Replace the person with a Pikachu."
+  },
+  {
+    "video_path": "./data_FiVE/0065_twist-dance",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0065_twist-dance/edited_first_frame",
+    "prompt": "Replace the dancers with robots."
+  },
+  {
+    "video_path": "./data_FiVE/0066_deer",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0066_deer/edited_first_frame",
+    "prompt": "Change the deer to pandas."
+  },
+  {
+    "video_path": "./data_FiVE/0067_mbike-trick",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0067_mbike-trick/edited_first_frame",
+    "prompt": "Replace the motorcyclist with a robot and the motorcycle with a hovercraft."
+  },
+  {
+    "video_path": "./data_FiVE/0068_planes-water",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0068_planes-water/edited_first_frame",
+    "prompt": "Replace the airplane with a spaceship."
+  },
+  {
+    "video_path": "./data_FiVE/0069_car-turn",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0069_car-turn/edited_first_frame",
+    "prompt": "Change the silver SUV to a hovercraft."
+  },
+  {
+    "video_path": "./data_FiVE/0070_dance-twirl",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0070_dance-twirl/edited_first_frame",
+    "prompt": "Change the dancer to a robot."
+  },
+  {
+    "video_path": "./data_FiVE/0071_mallard-water",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0071_mallard-water/edited_first_frame",
+    "prompt": "Change the mallard duck to a boad."
+  },
+  {
+    "video_path": "./data_FiVE/0072_dog-agility",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0072_dog-agility/edited_first_frame",
+    "prompt": "Replace the border collie with a unicorn."
+  },
+  {
+    "video_path": "./data_FiVE/0073_bmx-rider",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0073_bmx-rider/edited_first_frame",
+    "prompt": "Replace the BMX rider with a robot."
+  },
+  {
+    "video_path": "./data_FiVE/0074_rhino",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0074_rhino/edited_first_frame",
+    "prompt": "Replace the rhinoceros with a robotic dinosaur."
+  },
+  {
+    "video_path": "./data_FiVE/0075_A_bicycle",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0075_A_bicycle/edited_first_frame",
+    "prompt": "Change the bicycle to a skateboard."
+  },
+  {
+    "video_path": "./data_FiVE/0076_A_rabbit",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0076_A_rabbit/edited_first_frame",
+    "prompt": "Change the rabbit to a drone."
+  },
+  {
+    "video_path": "./data_FiVE/0077_A_hawk",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0077_A_hawk/edited_first_frame",
+    "prompt": "Replace the hawk with a paraglider."
+  },
+  {
+    "video_path": "./data_FiVE/0078_A_cat",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0078_A_cat/edited_first_frame",
+    "prompt": "Replace the cat with a ferret."
+  },
+  {
+    "video_path": "./data_FiVE/0079_A_bus",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0079_A_bus/edited_first_frame",
+    "prompt": "Replace the bus with a hovercraft."
+  },
+  {
+    "video_path": "./data_FiVE/0080_A_motorcycle",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0080_A_motorcycle/edited_first_frame",
+    "prompt": "Change the motorcycle to a cheetah."
+  },
+  {
+    "video_path": "./data_FiVE/0081_A_horse",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0081_A_horse/edited_first_frame",
+    "prompt": "Replace the horse with a car and change the camera's focus from the horse to a dolphin."
+  },
+  {
+    "video_path": "./data_FiVE/0082_A_tram",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0082_A_tram/edited_first_frame",
+    "prompt": "Change the tram to a sleigh."
+  },
+  {
+    "video_path": "./data_FiVE/0083_A_boat",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0083_A_boat/edited_first_frame",
+    "prompt": "Replace the boat with a swan."
+  },
+  {
+    "video_path": "./data_FiVE/0084_A_squirrel",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0084_A_squirrel/edited_first_frame",
+    "prompt": "Replace the squirrel with a monkey and change 'climbing' to'swinging'."
+  },
+  {
+    "video_path": "./data_FiVE/0085_A_tram",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0085_A_tram/edited_first_frame",
+    "prompt": "Replace the tram with a horse-drawn carriage."
+  },
+  {
+    "video_path": "./data_FiVE/0086_A_red_sports_car",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0086_A_red_sports_car/edited_first_frame",
+    "prompt": "Replace the red sports car with a rocket and change the action from speeding down to launching up."
+  },
+  {
+    "video_path": "./data_FiVE/0087_A_seagull",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0087_A_seagull/edited_first_frame",
+    "prompt": "Change the seagull to a kite."
+  },
+  {
+    "video_path": "./data_FiVE/0088_A_cyclist",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0088_A_cyclist/edited_first_frame",
+    "prompt": "Change the cyclist to a rollerblader."
+  },
+  {
+    "video_path": "./data_FiVE/0089_A_dog",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0089_A_dog/edited_first_frame",
+    "prompt": "Change the dog into a seal, replace wagging its tail with clapping its flippers."
+  },
+  {
+    "video_path": "./data_FiVE/0090_A_deer",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0090_A_deer/edited_first_frame",
+    "prompt": "Replace the deer with a snowmobile and change bounding to racing and leap to turn."
+  },
+  {
+    "video_path": "./data_FiVE/0091_A_hawk",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0091_A_hawk/edited_first_frame",
+    "prompt": "Replace the hawk with a hot air balloon."
+  },
+  {
+    "video_path": "./data_FiVE/0092_A_fox",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0092_A_fox/edited_first_frame",
+    "prompt": "Replace the fox with a robot, and change 'paw prints' to 'tracks'."
+  },
+  {
+    "video_path": "./data_FiVE/0093_A_helicopter",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0093_A_helicopter/edited_first_frame",
+    "prompt": "Change the helicopter to a UFO and its blades to lights, and change downdraft to glow."
+  },
+  {
+    "video_path": "./data_FiVE/0094_A_swan",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0094_A_swan/edited_first_frame",
+    "prompt": "Replace the swan with a paper boat."
+  },
+  {
+    "video_path": "./data_FiVE/0095_A_crow",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0095_A_crow/edited_first_frame",
+    "prompt": "Replace the crow with a drone and change cawing to buzzing."
+  },
+  {
+    "video_path": "./data_FiVE/0096_A_car",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0096_A_car/edited_first_frame",
+    "prompt": "Change the car to a spaceship, the coastal road to a cosmic path, the waves to stars, and the cliffs to the void."
+  },
+  {
+    "video_path": "./data_FiVE/0097_A_bird",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0097_A_bird/edited_first_frame",
+    "prompt": "Replace the bird with a dragon."
+  },
+  {
+    "video_path": "./data_FiVE/0098_A_squirrel",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0098_A_squirrel/edited_first_frame",
+    "prompt": "Change the squirrel to a bear."
+  },
+  {
+    "video_path": "./data_FiVE/0099_A_jogger",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0099_A_jogger/edited_first_frame",
+    "prompt": "Replace the jogger with a robot."
+  },
+  {
+    "video_path": "./data_FiVE/0100_A_deer",
+    "input_dir": "./data_FiVE",
+    "output_dir": "./data_FiVE/0100_A_deer/edited_first_frame",
+    "prompt": "Replace the deer with a unicorn and change the word serene to magical."
+  }
+]

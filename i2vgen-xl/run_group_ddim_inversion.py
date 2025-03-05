@@ -140,6 +140,7 @@ def main(template_config, configs_list):
             )
             logger.info(f"Saved source video as gif to {config.video_frames_path}")
         first_frame = frame_list[0]  # Is a PIL image
+        config.n_frames = min(len(frame_list), config.n_frames)
 
         # Produce static video
         if config.inverse_config.inverse_static_video:
@@ -198,7 +199,8 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--template_config", type=str, default="./configs/group_ddim_inversion/template.yaml")
     parser.add_argument("--configs_json", type=str, default="./configs/group_config.json") # This is going to override the template_config
-
+    parser.add_argument("--start_index", type=int, default=0)
+    
     args = parser.parse_args()
     template_config = OmegaConf.load(args.template_config)
 
@@ -213,6 +215,7 @@ if __name__ == "__main__":
     assert Path(configs_json).exists()
     with open(configs_json, 'r') as file:
         configs_list = json.load(file)
+    configs_list = configs_list[args.start_index:]
     logger.info(f"Loaded {len(configs_list)} configs from {configs_json}")
 
     # Set up device and seed

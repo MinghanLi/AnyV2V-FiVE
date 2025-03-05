@@ -6,4 +6,5 @@ cd ..
 
 python run_group_ddim_inversion.py \
     --template_config "configs_FiVE/group_ddim_inversion/template.yaml" \
-    --configs_json "configs_FiVE/group_ddim_inversion/group_config_edit1.json"
+    --configs_json "configs_FiVE/group_ddim_inversion/group_config_edit1.json" \
+    --start_index 50

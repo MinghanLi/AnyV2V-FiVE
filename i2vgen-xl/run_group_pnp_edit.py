@@ -80,6 +80,30 @@ def main(template_config, configs_list):
         # Override the config with the data_meta_entry
         config = OmegaConf.merge(template_config, OmegaConf.create(config_entry))
 
+        # Save video
+        # Add the config to the output_dir, TODO: make this more elegant
+        config_suffix = (
+            "ddim_init_latents_t_idx_"
+            + str(config.ddim_init_latents_t_idx)
+            + "_nsteps_"
+            + str(config.n_steps)
+            + "_cfg_"
+            + str(config.cfg)
+            + "_pnpf"
+            + str(config.pnp_f_t)
+            + "_pnps"
+            + str(config.pnp_spatial_attn_t)
+            + "_pnpt"
+            + str(config.pnp_temp_attn_t)
+        )
+        output_dir = os.path.join(config.output_dir, config_suffix)
+        edited_video_file_name = "video"
+        output_video_path_ = os.path.join(output_dir, f"{edited_video_file_name}.mp4")
+        if os.path.exists(output_video_path_):
+            print(f"Video existed! Skip {output_video_path_} ...")
+            continue
+        print(f"Processing {output_dir} ...")
+
         # Update the related paths to absolute paths
         config.video_path = os.path.join(config.video_dir, config.video_name + ".mp4")
         config.video_frames_path = os.path.join(config.video_dir, config.video_name)
@@ -103,6 +127,7 @@ def main(template_config, configs_list):
             frame_list = convert_video_to_frames(config.video_path, config.image_size, save_frames=True)
             frame_list = frame_list[: config.n_frames]  # 16 frames for img2vid
             logger.debug(f"len(frame_list): {len(frame_list)}")
+        config.n_frames = min(config.n_frames, len(frame_list))
         src_frame_list = frame_list
         src_1st_frame = src_frame_list[0]  # Is a PIL image
 
@@ -149,23 +174,7 @@ def main(template_config, configs_list):
             ddim_inv_1st_frame=src_1st_frame,
         ).frames[0]
 
-        # Save video
-        # Add the config to the output_dir, TODO: make this more elegant
-        config_suffix = (
-            "ddim_init_latents_t_idx_"
-            + str(ddim_init_latents_t_idx)
-            + "_nsteps_"
-            + str(config.n_steps)
-            + "_cfg_"
-            + str(config.cfg)
-            + "_pnpf"
-            + str(config.pnp_f_t)
-            + "_pnps"
-            + str(config.pnp_spatial_attn_t)
-            + "_pnpt"
-            + str(config.pnp_temp_attn_t)
-        )
-        output_dir = os.path.join(config.output_dir, config_suffix)
+        
         os.makedirs(output_dir, exist_ok=True)
         edited_video = [frame.resize(config.image_size, resample=Image.LANCZOS) for frame in edited_video]
         # Downsampling the video for space saving
@@ -174,7 +183,7 @@ def main(template_config, configs_list):
         #     edited_video_file_name = "ddim_edit"
         # else:
         #     edited_video_file_name = "pnp_edit"
-        edited_video_file_name = "video"
+        
         export_to_video(edited_video, os.path.join(output_dir, f"{edited_video_file_name}.mp4"), fps=config.target_fps)
         export_to_gif(edited_video, os.path.join(output_dir, f"{edited_video_file_name}.gif"))
         logger.info(f"Saved video to: {os.path.join(output_dir, f'{edited_video_file_name}.mp4')}")
